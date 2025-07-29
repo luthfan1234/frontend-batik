@@ -42,10 +42,11 @@ export default function BatikClassifier() {
     formData.append('file', file);
 
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/predict`, {
+      const res = await fetch('https://umanzz-batik-classifier.hf.space/predict', {
       method: 'POST',
       body: formData,
       });
+
 
       if (!res.ok) throw new Error('Gagal terhubung ke server AI.');
       
