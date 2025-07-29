@@ -68,7 +68,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 pt-8 text-center">
           <p className="text-slate-400 flex items-center justify-center gap-2">
-            &copy; {currentYear} BatikAI. Bertenaga AI • Dibuat untuk Warisan • Dibuat dengan <Heart className="w-4 h-4 text-emerald-400 fill-current" /> di Indonesia.
+            &copy; {currentYear} BatikAI. 
           </p>
         </div>
       </div>
